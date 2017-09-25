@@ -7,4 +7,10 @@ public class SortArrayTest extends TestCase {
 	public void testTrue() throws Exception {
 		assertEquals(true, true);
 	}
+
+	@Test
+	public void test1() throws Exception {
+		int[] arrayToSort = new int[]{0,1};
+		Assert.assertArrayEquals(arrayToSort, SortArray.sort(arrayToSort));
+	}
 }
