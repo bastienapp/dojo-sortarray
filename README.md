@@ -1,6 +1,6 @@
 # SortArray
 
-Ecrire une méthode qui prend en paramètre un tableau d’entiers et qui retourne ce tableau trié.
+Ecrire une méthode qui prend en paramètre un tableau d’entiers et qui retourne ce tableau trié par ordre croissant.
 
 Rappel des commandes junit :
 
