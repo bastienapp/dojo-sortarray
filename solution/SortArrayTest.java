@@ -11,7 +11,8 @@ public class SortArrayTest extends TestCase {
 	@Test
 	public void test1() throws Exception {
 		int[] arrayToSort = new int[]{0,1};
-		Assert.assertArrayEquals(arrayToSort, SortArray.sort(arrayToSort));
+		int[] arraySorted = new int[]{0,1};
+		Assert.assertArrayEquals(arraySorted, SortArray.sort(arrayToSort));
 	}
 
 	@Test
